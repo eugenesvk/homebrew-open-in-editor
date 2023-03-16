@@ -1,11 +1,6 @@
-# Eugenesvk Open-in-editor
+## Install
 
-## How do I install these formulae?
-
-`brew install eugenesvk/open-in-editor/<formula>`
-
-Or `brew tap eugenesvk/open-in-editor` and then `brew install <formula>`.
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+brew tap eugenesvk/open-in-editor
+brew install --cask '--appdir=/Applications/5 Util' open-in-editor
+```
