@@ -11,8 +11,7 @@ cask "open-in-editor" do
 
   depends_on formula: "duti"
 
-  app "open-in-editor-master/OpenInEditor.app" #, target: "5 Util/5 GUI/OpenInEditor.app"
-
+  app "open-in-editor-master/OpenInEditor.app"
   bundle_id = "org.#{github_user}.#{name.first}"
   installer script: {
     executable: "#{HOMEBREW_PREFIX}/bin/duti",
